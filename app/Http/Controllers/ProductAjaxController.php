@@ -68,4 +68,7 @@ class ProductAjaxController extends Controller
         Product::find($id);
         return response()->json(['success'=>'Product deleted.']);
     }
+    public function datainfo()
+    {
+    }
 }
